@@ -1,0 +1,247 @@
+{
+  "settings": {
+    "pinHash": "562e1a993f17fe09ce12942dc8c27caceae1b6f78e879e3822a2a4bbbca9b65f",
+    "teacherPasswordHash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "allowResubmissionDefault": true,
+    "maxFilesPerSubmission": 10,
+    "maxFileSizeMb": 10,
+    "notificationsEnabled": true
+  },
+  "profiles": [
+    {
+      "id": "teacher-quang-hung",
+      "username": "giaovien",
+      "displayName": "Giáo viên",
+      "role": "teacher",
+      "status": "active",
+      "createdAt": "2026-10-28T17:42:52.007Z",
+      "pinHash": "562e1a993f17fe09ce12942dc8c27caceae1b6f78e879e3822a2a4bbbca9b65f",
+      "passwordHash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+    },
+    {
+      "id": "student-an",
+      "username": "an.tran",
+      "studentCode": "HS01",
+      "displayName": "Trần Văn An",
+      "className": "12A1",
+      "notes": "Học sinh chăm chỉ, mục tiêu 9+ môn Toán",
+      "role": "student",
+      "status": "active",
+      "createdAt": "2026-10-28T17:42:52.008Z",
+      "passwordHash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+    },
+    {
+      "id": "student-linh",
+      "username": "linh.le",
+      "studentCode": "HS02",
+      "displayName": "Lê Phương Linh",
+      "className": "12A1",
+      "notes": "Tiến bộ nhanh, làm bài cẩn thận",
+      "role": "student",
+      "status": "active",
+      "createdAt": "2026-10-28T17:42:52.008Z",
+      "passwordHash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "assign-today-math",
+      "title": "Bài tập Hàm số & Khảo sát sự biến thiên (Ngày 2026-10-29)",
+      "subject": "Toán học",
+      "content": "Các em giải chi tiết 3 bài toán cực trị và điểm uốn trong file đính kèm. Chụp rõ từng bước tính đạo hàm, bảng biến thiên và kết luận. Nhớ ghi họ tên vào góc vở!",
+      "publishAt": "2026-10-29T07:00:00+07:00",
+      "dueAt": "2026-10-29T23:59:59+07:00",
+      "streakRequired": true,
+      "createdBy": "teacher-quang-hung",
+      "status": "published",
+      "targetType": "all",
+      "attachments": [
+        {
+          "id": "file-seed-math-guide",
+          "fileName": "Huong_dan_giai_ham_so_12.pdf",
+          "fileSize": 420500,
+          "mimeType": "application/pdf",
+          "url": "/api/files/sample/Huong_dan_giai_ham_so_12.pdf",
+          "uploadedAt": "2026-10-28T17:42:52.042Z"
+        }
+      ],
+      "version": 1,
+      "allowResubmit": true,
+      "createdAt": "2026-10-29T07:00:00+07:00",
+      "updatedAt": "2026-10-29T07:00:00+07:00"
+    },
+    {
+      "id": "assign-eng-streak",
+      "title": "Luyện 20 Cụm từ Collocations & Bài đọc Đọc hiểu",
+      "subject": "Tiếng Anh",
+      "content": "Đọc kỹ bài reading trích đề thi thử THPT Quốc Gia, ghi đáp án 5 câu hỏi và dịch 3 câu văn then chốt. Nộp bài trước 22h tối nay để duy trì chuỗi học tập nhé!",
+      "publishAt": "2026-10-29T08:00:00+07:00",
+      "dueAt": "2026-10-29T22:00:00+07:00",
+      "streakRequired": true,
+      "createdBy": "teacher-quang-hung",
+      "status": "published",
+      "targetType": "all",
+      "attachments": [],
+      "version": 1,
+      "allowResubmit": true,
+      "createdAt": "2026-10-29T08:00:00+07:00",
+      "updatedAt": "2026-10-29T08:00:00+07:00"
+    }
+  ],
+  "assignmentVersions": [
+    {
+      "id": "ver-1",
+      "assignmentId": "assign-today-math",
+      "version": 1,
+      "title": "Bài tập Hàm số & Khảo sát sự biến thiên (Ngày 2026-10-29)",
+      "content": "Các em giải chi tiết 3 bài toán cực trị và điểm uốn trong file đính kèm. Chụp rõ từng bước tính đạo hàm, bảng biến thiên và kết luận. Nhớ ghi họ tên vào góc vở!",
+      "attachments": [
+        {
+          "id": "file-seed-math-guide",
+          "fileName": "Huong_dan_giai_ham_so_12.pdf",
+          "fileSize": 420500,
+          "mimeType": "application/pdf",
+          "url": "/api/files/sample/Huong_dan_giai_ham_so_12.pdf",
+          "uploadedAt": "2026-10-28T17:42:52.042Z"
+        }
+      ],
+      "changedAt": "2026-10-29T07:00:00+07:00"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub-an-math",
+      "assignmentId": "assign-today-math",
+      "studentId": "student-an",
+      "version": 1,
+      "textAnswer": "Dạ thưa Thầy, em đã làm xong 3 bài tập về nhà. Em chụp ảnh 2 trang vở bài giải gửi Thầy chấm ạ. Bài 3 câu b em có tìm thêm cách giải nhanh bằng đồ thị ạ.",
+      "attachments": [
+        {
+          "id": "file-sub-an-1",
+          "fileName": "BaiLam_TranVanAn_Trang1.jpg",
+          "fileSize": 185400,
+          "mimeType": "image/jpeg",
+          "url": "/api/files/sample/BaiLam_TranVanAn_Trang1.jpg",
+          "uploadedAt": "2026-10-29T10:15:00+07:00"
+        },
+        {
+          "id": "file-sub-an-2",
+          "fileName": "BaiLam_TranVanAn_Trang2.jpg",
+          "fileSize": 204100,
+          "mimeType": "image/jpeg",
+          "url": "/api/files/sample/BaiLam_TranVanAn_Trang2.jpg",
+          "uploadedAt": "2026-10-29T10:15:00+07:00"
+        }
+      ],
+      "submittedAt": "2026-10-29T10:15:00+07:00",
+      "isLate": false,
+      "status": "graded"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "fb-an-math",
+      "submissionId": "sub-an-math",
+      "teacherId": "teacher-quang-hung",
+      "teacherName": "Thầy Quang Hưng",
+      "score": 9.5,
+      "comment": "Trình bày rất sạch sẽ và chặt chẽ! Câu 3b cách dùng đồ thị rất thông minh, tiết kiệm được 3 phút làm bài. Tiếp tục phát huy chuỗi học tập nhé An!",
+      "returnedAt": "2026-10-29T11:00:00+07:00"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "recipientId": "student-an",
+      "title": "Thầy Quang Hưng đã chấm bài tập Toán",
+      "message": "Bài tập Hàm số & Khảo sát sự biến thiên: 9.5/10 - \"Trình bày rất sạch sẽ và chặt chẽ!\"",
+      "type": "graded",
+      "link": "/history",
+      "read": true,
+      "createdAt": "2026-10-29T11:00:00+07:00"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit-7f986a19-be1e-4310-9164-8d5605f7929a",
+      "actorId": "teacher-quang-hung",
+      "actorName": "Giáo viên",
+      "action": "XÓA_HỌC_SINH",
+      "entityType": "student",
+      "entityId": "student-nam",
+      "details": "Xóa vĩnh viễn học sinh Nguyễn Hoàng Nam",
+      "timestamp": "2026-10-29T06:51:19.360Z"
+    },
+    {
+      "id": "audit-b603eee4-9c7d-49b4-a990-a3f3989f980a",
+      "actorId": "teacher-quang-hung",
+      "actorName": "Thầy Quang Hưng",
+      "action": "LƯU_TRỮ_HỌC_SINH",
+      "entityType": "student",
+      "entityId": "student-linh",
+      "details": "Lưu trữ tài khoản học sinh Lê Phương Linh",
+      "timestamp": "2026-10-28T18:01:16.563Z"
+    },
+    {
+      "id": "audit-02344b02-2141-47c4-82ca-6002e877bff5",
+      "actorId": "teacher-quang-hung",
+      "actorName": "Thầy Quang Hưng",
+      "action": "LƯU_TRỮ_HỌC_SINH",
+      "entityType": "student",
+      "entityId": "student-an",
+      "details": "Lưu trữ tài khoản học sinh Trần Văn An",
+      "timestamp": "2026-10-28T18:01:12.524Z"
+    },
+    {
+      "id": "audit-42b1cfae-255a-4d3e-a55d-c701da874f8f",
+      "actorId": "teacher-quang-hung",
+      "actorName": "Thầy Quang Hưng",
+      "action": "LƯU_TRỮ_HỌC_SINH",
+      "entityType": "student",
+      "entityId": "student-an",
+      "details": "Lưu trữ tài khoản học sinh Trần Văn An",
+      "timestamp": "2026-10-28T18:01:10.381Z"
+    },
+    {
+      "id": "audit-a88d10e9-dba4-4103-888f-653cf611b396",
+      "actorId": "teacher-quang-hung",
+      "actorName": "Thầy Quang Hưng",
+      "action": "LƯU_TRỮ_HỌC_SINH",
+      "entityType": "student",
+      "entityId": "student-an",
+      "details": "Lưu trữ tài khoản học sinh Trần Văn An",
+      "timestamp": "2026-10-28T18:01:08.130Z"
+    },
+    {
+      "id": "audit-c7d933a3-a733-480b-b0e8-ebb02d3a3fbc",
+      "actorId": "teacher-quang-hung",
+      "actorName": "Thầy Quang Hưng",
+      "action": "LƯU_TRỮ_HỌC_SINH",
+      "entityType": "student",
+      "entityId": "student-an",
+      "details": "Lưu trữ tài khoản học sinh Trần Văn An",
+      "timestamp": "2026-10-28T18:00:59.946Z"
+    },
+    {
+      "id": "audit-03792feb-b2b0-4e60-9ab3-001938c97dce",
+      "actorId": "teacher-quang-hung",
+      "actorName": "Thầy Quang Hưng",
+      "action": "CẬP_NHẬT_CÀI_ĐẶT",
+      "entityType": "settings",
+      "entityId": "settings",
+      "details": "Cập nhật cài đặt bảo mật và hệ thống",
+      "timestamp": "2026-10-28T17:54:45.802Z"
+    },
+    {
+      "id": "audit-init",
+      "actorId": "system",
+      "actorName": "Hệ thống Quang Hưng",
+      "action": "KHỞI TẠO",
+      "entityType": "system",
+      "entityId": "system",
+      "details": "Khởi tạo hệ thống giáo dục Quang Hưng với mã PIN giáo viên ban đầu.",
+      "timestamp": "2026-10-28T17:42:52.042Z"
+    }
+  ],
+  "streakExceptions": []
+}

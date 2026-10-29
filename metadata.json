@@ -1,0 +1,6 @@
+{
+  "name": "QUANG HƯNG",
+  "description": "Nền tảng học tập trực tuyến, giao bài tập hằng ngày và giữ chuỗi học tập (streak) cho giáo viên và học sinh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
